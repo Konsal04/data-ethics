@@ -10,5 +10,5 @@ for i in range(1, len(nums)):
     else:
         current_length = 1
 
-print(max_length);
+print(max_length)
 
