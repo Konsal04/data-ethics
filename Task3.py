@@ -15,7 +15,7 @@ class TestCyclicTimeDifference(unittest.TestCase):
 
     def test_one_hour_difference(self):
         self.assertEqual(cyclic_time_difference(1, 2), 1)
-        self.assertEqual(cyclic_time_difference(23, 0), 1)  # Wrap around midnight
+        self.assertEqual(cyclic_time_difference(23, 0), 1)
 
     def test_opposite_hours(self):
         self.assertEqual(cyclic_time_difference(0, 12), 12)
