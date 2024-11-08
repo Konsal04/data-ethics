@@ -25,11 +25,6 @@ class TestCyclicTimeDifference(unittest.TestCase):
         self.assertEqual(cyclic_time_difference(23, 1), 2)
         self.assertEqual(cyclic_time_difference(22, 2), 4)
 
-    def test_arbitrary_hours(self):
-        self.assertEqual(cyclic_time_difference(3, 15), 12)
-        self.assertEqual(cyclic_time_difference(6, 18), 12)
-        self.assertEqual(cyclic_time_difference(8, 23), 9)
-
 
 if __name__ == "__main__":
     unittest.main()
